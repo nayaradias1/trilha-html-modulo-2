@@ -6,6 +6,23 @@ body {
     display: flex;
     justify-content: center;
 }
+table {
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 6px 11px 47px 8px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 6px 11px 47px 8px rgba(0,0,0,0);
+border: solid 1px gray;
+}
+table thead th {
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+table tbody tr:hover td {
+    background-color: #b0aeae6d;
+    cursor: pointer;
+}
 
 .wrapper {
     width: 1200px;
