@@ -11,7 +11,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
     display: flex;
@@ -20,11 +19,15 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(0, 165, 165);
     padding: 10px 20px 0px;
+    
+}
+a:hover{
+    color: blue;
+    transition: 1s;
 }
 .header {
-    background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
 .content {
@@ -33,6 +36,17 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgba(99, 56, 240, 0.324);
     min-height: 150px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
 }
